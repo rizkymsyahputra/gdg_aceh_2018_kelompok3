@@ -7,8 +7,8 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
 <body>
@@ -16,17 +16,19 @@
   <nav class="teal lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">WISATAOne</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.php">HOME</a></li>
+        <li><a href="/">HOME</a></li>
         <li><a href="#">Wisata</a></li>
-        <li><a href="submit.php">Upload</a></li>
-        <li><a href="login.php">MASUK/DAFTAR</a></li>
+        <li><a href="/submit">Upload</a></li>
+        <li><a href="/login">Masuk</a></li>
+        <li><a href="/register">Daftar</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="index.php">HOME</a></li>
+        <li><a href="/">HOME</a></li>
         <li><a href="#">Wisata</a></li>
-        <li><a href="submit.php">Upload</a></li>
-        <li><a href="login.php">MASUK/DAFTAR</a></li>
+        <li><a href="/submit">Upload</a></li>
+        <li><a href="/login">Masuk</a></li>
+        <li><a href="/register">Daftar</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -44,7 +46,7 @@
       <div class="col s12 m4 l4">
         <div class="card">
           <div class="card-image">
-            <img src="images/parallax1.jpeg">
+            <img src="/images/parallax1.jpeg">
             <!-- <span class="card-title">TOP 10 DESTINASI</span> -->
           </div>
           <div class="collection with-header">

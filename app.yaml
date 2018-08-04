@@ -3,5 +3,22 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /css
+  static_dir: css
+- url: /js
+  static_dir: js
+
+- url: /images
+  static_dir: images
+
+- url: /login
+  script: login.php
+
+- url: /register
+  script: register.php
+
+- url: /submit
+  script: submit.php
+
 - url: /.*
   script: index.php

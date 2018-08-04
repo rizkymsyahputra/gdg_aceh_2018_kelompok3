@@ -14,17 +14,19 @@
   <nav class="teal lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">WISATAOne</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.php">HOME</a></li>
+        <li><a href="/">HOME</a></li>
         <li><a href="#">Wisata</a></li>
-        <li><a href="submit.php">Upload</a></li>
-        <li><a href="login.php">MASUK/DAFTAR</a></li>
+        <li><a href="/submit">Upload</a></li>
+        <li><a href="/login">Masuk</a></li>
+        <li><a href="/register">Daftar</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="index.php">HOME</a></li>
+        <li><a href="/">HOME</a></li>
         <li><a href="#">Wisata</a></li>
-        <li><a href="submit.php">Upload</a></li>
-        <li><a href="login.php">MASUK/DAFTAR</a></li>
+        <li><a href="/submit">Upload</a></li>
+        <li><a href="/login">Masuk</a></li>
+        <li><a href="/register">Daftar</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -85,6 +87,5 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
   </body>
 </html>
