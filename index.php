@@ -15,17 +15,17 @@
   <nav class="teal lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">WISATAOne</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">KLASEMEN</a></li>
-        <li><a href="#">WISATA</a></li>
-        <li><a href="#">MASUK/DAFTAR</a></li>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="#">Wisata</a></li>
+        <li><a href="submit.php">Upload</a></li>
+        <li><a href="login.php">MASUK/DAFTAR</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">KLASEMEN</a></li>
-        <li><a href="#">WISATA</a></li>
-        <li><a href="#">MASUK/DAFTAR</a></li>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="#">Wisata</a></li>
+        <li><a href="submit.php">Upload</a></li>
+        <li><a href="login.php">MASUK/DAFTAR</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -80,7 +80,7 @@
                   <a href="" class="collection-item"> 4. Rizky</a>
                   <a href="" class="collection-item"> 5. Kucengaer</a>
                   <a href="" class="collection-item"> 6. RizkySyahp</a>
-                  <a href="" class="collection-item"> 7. Ky700</a>
+                  <a href="" class="collection-item"> 7. kyykyy</a>
                   <a href="" class="collection-item"> 8. Rizkysyahputra98</a>
                   <a href="" class="collection-item"> 9. Andi</a>
                   <a href="" class="collection-item"> 10. Budi</a>
@@ -97,6 +97,13 @@
           <!-- <div class="card-action">
             <a href="#">This is a link</a>
           </div> -->
+          <ul class="collection">
+            <li class="collection-item">Total User         : 152.124 User</li>
+            <li class="collection-item">Total Objek Wisata : 321 titik</li>
+            <li class="collection-item">Total tag          : 300 titik</li>
+            <li class="collection-item">Latest User Reg    : Aziz</li>
+            <li class="collection-item">Latest User Visit  : Aziz</li>
+          </ul>
         </div>
       </div>
 
@@ -106,7 +113,7 @@
 
 
   <!-- <footer class="page-footer orange" style="position:fixed;bottom:0;left:0;width:100%;"> -->
-  <footer class="page-footer orange" style="bottom:0;left:0;width:100%;">
+  <!-- <footer class="page-footer orange" style="bottom:0;left:0;width:100%;">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -120,7 +127,7 @@
       Kelompok 3</a>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 
   <!--  Scripts-->

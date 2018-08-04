@@ -34,45 +34,31 @@
   <div class="container col s6 l12 m12">
     <form class="center" action=#>
       <div class="row">
-        <h4>Mendaftar Tempat Wisata</h4>
+        <h4>Mendaftar Pengguna Baru</h4>
       </div>
 
       <div class="row">
         <div class="input-field col s12 l12">
           <input id="nama_poi" type="text" class="validate">
-          <label class="active" for="nama_poi">Nama Lokasi</label>
+          <label class="active" for="nama_poi">Username</label>
         </div>
       </div>
       <div class="row">
-        <div class="input-field col s6 l6">
-          <input id="lat" type="text" class="validate">
-          <label class="active" for="lat">Latitude</label>
+        <div class="input-field col s12 l12">
+          <input id="lat" type="password" class="validate">
+          <label class="active" for="lat">Password</label>
         </div>
 
-        <div class="input-field col s6 l6">
-          <input id="long" type="text" class="validate">
-          <label class="active" for="long">Longitude</label>
-        </div>
       </div>
       <!-- INPUT FILE HERE-->
-      <div class="row">
-        <div class="Container col s12 l6">
-        <div class="file-field input-field">
-          <div class="btn">
-            <span>File Foto</span>
-            <input type="file" multiple>
-          </div>
-          <div class="file-path-wrapper">
-            <input class="file-path validate" type="text" placeholder="Masukkan Foto Tambahan">
-          </div>
-        </div>
-      </div>
-      </div>
 
       <div class="row">
-        <button class="btn waves-effect waves-light" type="submit" name="action">MASUKKAN
+        <button class="btn waves-effect waves-light" type="submit" name="action">MASUK
           <i class="material-icons right">send</i>
         </button>
+      </div>
+      <div class="row">
+        Belum daftar ? <a href"register.php">klik disini</a>
       </div>
 
     </form>
