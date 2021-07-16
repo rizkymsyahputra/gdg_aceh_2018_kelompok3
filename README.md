@@ -4,4 +4,4 @@
 Collaborators :
 - Iwan Syahputra / 08535383838393234
 - Aziz Ghifary
-- Rizky M Syahputra : +62 812 699 5098
+- Rizky M Syahputra : 
